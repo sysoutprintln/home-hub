@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./css/rent.css">
+  <link rel="shortcut icon" type="x-icon" href="./assets/tab-logo.png">
+  <script href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <title>HomeHub | Rent</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar-menu">
+      <div class="logo-container">
+        <img src="./assets/logo.png" alt="HomeHub Logo">
+        <span>HomeHub</span>
+      </div>
+      <ul>
+        <li class="mid-a"><a href="./home.html">Home</a></li>
+        <li class="mid-a"><a href="./rent.html">Rent</a></li>
+        <li class="mid-a"><a href="./buy.html">Buy</a></li>
+        <li class="mid-a"><a href="./consult.html">Consult</a></li>
+      </ul>
+      <ul>
+        <li class="right-a"><a href="./signin.html">Sign In</a></li>
+        <li class="right-a"><a href="./signup.html">Sign Up</a></li>
+      </ul>
+    </nav>
+    <div class="searchbar">
+      <input type="text" placeholder="Search for a house, an apartment, or anything you want...">
+      <button type="submit">Search!</button>
+    </div>
+  </header>
+  <main>
+    <div class="headerimg">
+      <h1 class="renttext">Test Our Roof by Renting!</h1>
+      <img src="./assets/buyheader.jpg" alt="BUY YOUR BUILDING HEADER">
+    </div>
+
+    <section id="selector">
+      <label for="building" id="building">RENT</label>
+      <select name="building" id="select-building">
+        <option value="choose">-- Choose Your Building --</option>
+        <option value="Ascott Sudirman Jakarta">Ascott Sudirman Jakarta</option>
+        <option value="Bakti Mulya Modern House">Bakti Mulya Modern House</option>
+        <option value="Bukit Tinggi Apartment">Bukit Tinggi Apartment</option>
+        <option value="Willow Bridge Creek">Willow Bridge Creek</option>
+        <option value="Sunrise Honeybee Ridge">Sunrise Honeybee Ridge</option>
+        <option value="Tranquil Cottage Haven">Tranquil Cottage Haven</option>
+        <option value="Azure Moonlight Coast">Azure Moonlight Coast</option>
+        <option value="Whispering Serenity Pines">Whispering Serenity Pines</option>
+        <option value="Sunset Cliffside Terrace">Sunset Cliffside Terrace</option>
+      </select>
+    </section>
+
+    <section id="b-info">
+      <section class="container">
+        <section class="content-container" id="Ascott Sudirman Jakarta">
+          <div class="img-container">
+            <img src="./assets/apartment/apart1big.jpeg" alt="Ascott Sudirman Jakarta">
+            <img id="small-img" src="./assets/apartment/apart1small.jpeg" alt="Interior Ascott Sudirman Jakarta">
+          </div>
+          <div class="details-container">
+            <h1>Ascott Sudirman Jakarta</h1>
+          </div>
+          <div class="rooms-details">
+            <div class="list">
+              <ul>
+                <li>WiFi Available</li>
+                <li>3 Toilets</li>
+                <li>1 Bathtub</li>
+              </ul>
+              <ul>
+                <li>4 Rooms</li>
+                <li>1 Master Room</li>
+                <li>TV and sofa Available</li>
+              </ul>
+            </div>
+            <div class="consult">
+              <img src="./assets/profile.jpg" alt="Consultant Profile Picture">
+              <h3>Reina <span>| Consultant</span></h3>
+            </div>
+            <div class="buttons">
+              <a href="#" class="rent-button">RENT</a><span> | </span>
+              <!-- <a href="#">RENT</a><span> | </span> -->
+              <a href="./consult.html">CONSULT</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="content-container" id="Bakti Mulya Modern House">
+          <div class="img-container">
+            <img src="./assets/apartment/apart1big.jpeg" alt="Ascott Sudirman Jakarta">
+            <img id="small-img" src="./assets/apartment/apart1small.jpeg" alt="Interior Ascott Sudirman Jakarta">
+          </div>
+          <div class="details-container">
+            <h1>Bakti Mulya Modern House</h1>
+          </div>
+          <div class="rooms-details">
+            <div class="list">
+              <ul>
+                <li>WiFi Available</li>
+                <li>3 Toilets</li>
+                <li>1 Bathtub</li>
+              </ul>
+              <ul>
+                <li>4 Rooms</li>
+                <li>1 Master Room</li>
+                <li>TV and sofa Available</li>
+              </ul>
+            </div>
+            <div class="consult">
+              <img src="./assets/profile.jpg" alt="Consultant Profile Picture">
+              <h3>Reina <span>| Consultant</span></h3>
+            </div>
+            <div class="buttons">
+              <a href="#" class="rent-button">RENT</a><span> | </span>
+              <!-- <a href="#">RENT</a><span> | </span> -->
+              <a href="./consult.html">CONSULT</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="content-container" id="Bukit Tinggi Apartment">
+          <div class="img-container">
+            <img src="./assets/apartment/apart1big.jpeg" alt="Ascott Sudirman Jakarta">
+            <img id="small-img" src="./assets/apartment/apart1small.jpeg" alt="Interior Ascott Sudirman Jakarta">
+          </div>
+          <div class="details-container">
+            <h1>Bukit Tinggi Apartment</h1>
+          </div>
+          <div class="rooms-details">
+            <div class="list">
+              <ul>
+                <li>WiFi Available</li>
+                <li>3 Toilets</li>
+                <li>1 Bathtub</li>
+              </ul>
+              <ul>
+                <li>4 Rooms</li>
+                <li>1 Master Room</li>
+                <li>TV and sofa Available</li>
+              </ul>
+            </div>
+            <div class="consult">
+              <img src="./assets/profile.jpg" alt="Consultant Profile Picture">
+              <h3>Reina <span>| Consultant</span></h3>
+            </div>
+            <div class="buttons">
+              <a href="#" class="rent-button">RENT</a><span> | </span>
+              <!-- <a href="#">RENT</a><span> | </span> -->
+              <a href="./consult.html">CONSULT</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="content-container" id="Willow Bridge Creek">
+          <div class="img-container">
+            <img src="./assets/apartment/apart1big.jpeg" alt="Ascott Sudirman Jakarta">
+            <img id="small-img" src="./assets/apartment/apart1small.jpeg" alt="Interior Ascott Sudirman Jakarta">
+          </div>
+          <div class="details-container">
+            <h1>Willow Bridge Creek</h1>
+          </div>
+          <div class="rooms-details">
+            <div class="list">
+              <ul>
+                <li>WiFi Available</li>
+                <li>3 Toilets</li>
+                <li>1 Bathtub</li>
+              </ul>
+              <ul>
+                <li>4 Rooms</li>
+                <li>1 Master Room</li>
+                <li>TV and sofa Available</li>
+              </ul>
+            </div>
+            <div class="consult">
+              <img src="./assets/profile.jpg" alt="Consultant Profile Picture">
+              <h3>Reina <span>| Consultant</span></h3>
+            </div>
+            <div class="buttons">
+              <a href="#" class="rent-button">RENT</a><span> | </span>
+              <!-- <a href="#">RENT</a><span> | </span> -->
+              <a href="./consult.html">CONSULT</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="content-container" id="Sunrise Honeybee Ridge">
+          <div class="img-container">
+            <img src="./assets/apartment/apart1big.jpeg" alt="Ascott Sudirman Jakarta">
+            <img id="small-img" src="./assets/apartment/apart1small.jpeg" alt="Interior Ascott Sudirman Jakarta">
+          </div>
+          <div class="details-container">
+            <h1>Sunrise Honeybee Ridge</h1>
+          </div>
+          <div class="rooms-details">
+            <div class="list">
+              <ul>
+                <li>WiFi Available</li>
+                <li>3 Toilets</li>
+                <li>1 Bathtub</li>
+              </ul>
+              <ul>
+                <li>4 Rooms</li>
+                <li>1 Master Room</li>
+                <li>TV and sofa Available</li>
+              </ul>
+            </div>
+            <div class="consult">
+              <img src="./assets/profile.jpg" alt="Consultant Profile Picture">
+              <h3>Reina <span>| Consultant</span></h3>
+            </div>
+            <div class="buttons">
+              <a href="#" class="rent-button">RENT</a><span> | </span>
+              <!-- <a href="#">RENT</a><span> | </span> -->
+              <a href="./consult.html">CONSULT</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="content-container" id="Tranquil Cottage Haven">
+          <div class="img-container">
+            <img src="./assets/apartment/apart1big.jpeg" alt="Ascott Sudirman Jakarta">
+            <img id="small-img" src="./assets/apartment/apart1small.jpeg" alt="Interior Ascott Sudirman Jakarta">
+          </div>
+          <div class="details-container">
+            <h1>Tranquil Cottage Haven</h1>
+          </div>
+          <div class="rooms-details">
+            <div class="list">
+              <ul>
+                <li>WiFi Available</li>
+                <li>3 Toilets</li>
+                <li>1 Bathtub</li>
+              </ul>
+              <ul>
+                <li>4 Rooms</li>
+                <li>1 Master Room</li>
+                <li>TV and sofa Available</li>
+              </ul>
+            </div>
+            <div class="consult">
+              <img src="./assets/profile.jpg" alt="Consultant Profile Picture">
+              <h3>Reina <span>| Consultant</span></h3>
+            </div>
+            <div class="buttons">
+              <a href="#" class="rent-button">RENT</a><span> | </span>
+              <!-- <a href="#">RENT</a><span> | </span> -->
+              <a href="./consult.html">CONSULT</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="content-container" id="Azure Moonlight Coast">
+          <div class="img-container">
+            <img src="./assets/apartment/apart1big.jpeg" alt="Ascott Sudirman Jakarta">
+            <img id="small-img" src="./assets/apartment/apart1small.jpeg" alt="Interior Ascott Sudirman Jakarta">
+          </div>
+          <div class="details-container">
+            <h1>Azure Moonlight Coast</h1>
+          </div>
+          <div class="rooms-details">
+            <div class="list">
+              <ul>
+                <li>WiFi Available</li>
+                <li>3 Toilets</li>
+                <li>1 Bathtub</li>
+              </ul>
+              <ul>
+                <li>4 Rooms</li>
+                <li>1 Master Room</li>
+                <li>TV and sofa Available</li>
+              </ul>
+            </div>
+            <div class="consult">
+              <img src="./assets/profile.jpg" alt="Consultant Profile Picture">
+              <h3>Reina <span>| Consultant</span></h3>
+            </div>
+            <div class="buttons">
+              <a href="#" class="rent-button">RENT</a><span> | </span>
+              <!-- <a href="#">RENT</a><span> | </span> -->
+              <a href="./consult.html">CONSULT</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="content-container" id="Whispering Serenity Pines">
+          <div class="img-container">
+            <img src="./assets/apartment/apart1big.jpeg" alt="Ascott Sudirman Jakarta">
+            <img id="small-img" src="./assets/apartment/apart1small.jpeg" alt="Interior Ascott Sudirman Jakarta">
+          </div>
+          <div class="details-container">
+            <h1>Whispering Serenity Pines</h1>
+          </div>
+          <div class="rooms-details">
+            <div class="list">
+              <ul>
+                <li>WiFi Available</li>
+                <li>3 Toilets</li>
+                <li>1 Bathtub</li>
+              </ul>
+              <ul>
+                <li>4 Rooms</li>
+                <li>1 Master Room</li>
+                <li>TV and sofa Available</li>
+              </ul>
+            </div>
+            <div class="consult">
+              <img src="./assets/profile.jpg" alt="Consultant Profile Picture">
+              <h3>Reina <span>| Consultant</span></h3>
+            </div>
+            <div class="buttons">
+              <a href="#" class="rent-button">RENT</a><span> | </span>
+              <!-- <a href="#">RENT</a><span> | </span> -->
+              <a href="./consult.html">CONSULT</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="content-container" id="Sunset Cliffside Terrace">
+          <div class="img-container">
+            <img src="./assets/apartment/apart1big.jpeg" alt="Ascott Sudirman Jakarta">
+            <img id="small-img" src="./assets/apartment/apart1small.jpeg" alt="Interior Ascott Sudirman Jakarta">
+          </div>
+          <div class="details-container">
+            <h1>Sunset Cliffside Terrace</h1>
+          </div>
+          <div class="rooms-details">
+            <div class="list">
+              <ul>
+                <li>WiFi Available</li>
+                <li>3 Toilets</li>
+                <li>1 Bathtub</li>
+              </ul>
+              <ul>
+                <li>4 Rooms</li>
+                <li>1 Master Room</li>
+                <li>TV and sofa Available</li>
+              </ul>
+            </div>
+            <div class="consult">
+              <img src="./assets/profile.jpg" alt="Consultant Profile Picture">
+              <h3>Reina <span>| Consultant</span></h3>
+            </div>
+            <div class="buttons">
+              <a href="#" class="rent-button">RENT</a><span> | </span>
+              <!-- <a href="#">RENT</a><span> | </span> -->
+              <a href="./consult.html">CONSULT</a>
+            </div>
+          </div>
+        </section>
+
+      </section>
+    </section>
+
+  </main>
+  <footer>
+    <section class="footer">
+      <div class="left">
+        <div class="info">
+          <img src="./assets/logo.png" alt="HomeHub Logo">
+          <h3>HomeHub</h3>
+        </div>
+        <p>The one-stop hub to find your happy place.</p>
+        <p>Our Social Media</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/" target=”_blank”><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/" target=”_blank”><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.youtube.com/" target=”_blank”><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://x.com/" target=”_blank”><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+      </div>
+      <div class="site-map">
+        <ul>
+          <li id="support">Support</li>
+          <li><a href="./home.html">Home</a></li>
+          <li><a href="./rent.html">Rent</a></li>
+          <li><a href="./buy.html">Buy</a></li>
+          <li><a href="./consult.html">Consult</a></li>
+        </ul>
+      </div>
+    </section>
+    <div class="copyright">
+      <p>Copyright &copy; 2024 · All Rights Reserved. <span class="owner">| HomeHub</span></p>
+    </div>
+  </footer>
+</body>
+  <script src="./js/rent.js"></script>
+</html>

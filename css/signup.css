@@ -1,0 +1,304 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Times New Roman', Helvetica, Arial;
+}
+
+.navbar-menu{
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  align-items: center;
+
+  background-color: #f9e0bb;
+  font-size: 18px;
+}
+
+.logo-container{
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.logo-container span{
+  font-size: 30px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.navbar-menu img{
+  width: 90px;
+}
+
+.navbar-menu ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-menu ul li{
+  display: inline-block;
+  line-height: 55px;
+  margin: 0 5px;
+}
+
+.navbar-menu ul li a{
+  border: 2px solid #f9e0bb;
+  border-radius: 25px;
+
+  padding: 8px 15px;
+  margin: auto;
+  border-radius: 3px;
+
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-menu .mid-a a:hover{
+  border: 2px solid black;
+  border-radius: 25px;
+  cursor: pointer;
+  background-color: #FFE154;
+  transition: .5s;
+}
+
+.navbar-menu .right-a a:hover{
+  border: 2px solid black;
+  border-radius: 25px;
+  cursor: pointer;
+  background-color: #E4C11C;
+
+  color: black;
+}
+
+.searchbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3f3f3;
+
+  padding: 10px;
+}
+
+.searchbar input{
+  width: 50%;
+  padding: 8px;
+  margin: 0 10px;
+
+  font-size: 14px;
+  border: 2px solid #D9D9D9;
+  border-radius: 25px;
+}
+
+.searchbar input[type=text]{
+  padding-left: 15px;
+}
+
+.searchbar button{
+  border-radius: 25px;
+  cursor: pointer;
+  border: 1.5px solid black;
+  background-color: #f9e0bb;
+
+  padding: 8px 12px;
+}
+
+.searchbar button:hover{
+  background-color: #E4C11C;
+  transition: 0.5s;
+}
+
+main {
+  margin: 50px;
+  justify-content: center;
+  align-items: center;
+  /* min-height: 100vh; */
+}
+
+h1 {
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.register-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+form {
+  width: 50%;
+  padding: 20px;
+  border-radius: 5px;
+  /* background-color: #682424; */
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-fill
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.gender{
+  display: flex;
+}
+
+input[type="radio"] {
+  margin: 0 8px;
+}
+
+#register{
+  width: 103%;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#register:hover {
+  opacity: 0.8;
+}
+
+.small {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.small a {
+  color: #333; /* Link color */
+  text-decoration: none;
+}
+
+.small a:hover {
+  text-decoration: underline; /* Link hover effect */
+}
+
+footer{
+  background-color: #f9e0bb;
+  color: black;
+}
+
+.footer{
+  display: flex;
+  padding: 30px 70px;
+}
+
+.left .info{
+  display: flex;
+}
+
+.left img{
+  width: 55px;
+  height: 25px;
+}
+
+.left p{
+  padding-left: 15px;
+  margin: 5px 0 5px 0;
+}
+
+.social-icons{
+  display: flex;
+}
+
+.social-icons a{
+  text-decoration: none;
+  margin: 15px;
+
+  text-align: center;
+
+  width: 15px;
+}
+
+.social-icons a:hover{
+  transition: 0.5s;
+}
+
+.social-icons a i{
+  font-size: 1.5em;
+  color: #4b5067;
+  opacity: 0.9;
+}
+
+.social-icons a:hover i{
+  transition: 0.5s;
+  color: #131333;
+}
+
+.site-map{
+  margin-top: 15px;
+}
+
+.site-map ul{
+  display: flex;
+  position: absolute;
+  justify-content: space-around;
+  flex-direction: column;
+  padding-left: 50px;
+
+}
+
+.site-map ul #support{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.site-map ul li{
+  list-style-type: none;
+}
+
+.site-map ul li a{
+  color: black;
+  margin: 10px;
+  font-size: 1.2rem;
+  opacity: 0.7;
+  transform: 0.5s;
+}
+
+.site-map ul li a:hover{
+  opacity: 1;
+  text-decoration: underline;
+}
+
+.copyright{
+  background-color: #E4C11C;
+  padding: 15px;
+  text-align: center;
+}
+
+.copyright p{
+  color: black;
+}
+
+.owner{
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0 5px;
+}
